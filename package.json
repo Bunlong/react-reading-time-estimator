@@ -14,16 +14,10 @@
   "keywords": [
     "react",
     "reactjs",
-    "barcodes",
-    "react-barcodes",
-    "barcode",
-    "react-barcode",
-    "hooks",
-    "react-hooks",
-    "components",
-    "react-components",
-    "typescript",
-    "javascript"
+    "react-reading-time-estimator",
+    "reading-time",
+    "hook",
+    "hooks"
   ],
   "homepage": "",
   "main": "dist/react-reading-time-estimator.js",
@@ -75,9 +69,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "jsbarcode": "^3.11.0"
-  },
   "bundlesize": [
     {
       "path": "./dist/react-reading-time-estimator.es.js",
