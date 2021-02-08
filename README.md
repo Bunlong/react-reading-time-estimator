@@ -28,10 +28,10 @@ yarn add react-reading-time-estimator
 import { useReadingTime } from "react-reading-time-estimator";
 
 const {
-  text,
-  minutes,
-  time,
-  words,
+  text, // 1 min read
+  minutes, // 1
+  words, // 168
+  time, // 0.5309090909090909
 } = useReadingTime(text);
 ```
 

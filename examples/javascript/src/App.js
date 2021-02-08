@@ -1,4 +1,4 @@
-import React, {useCallback} from 'react';
+import React from 'react';
 import { useReadingTime } from "react-reading-time-estimator";
 
 function App() {
@@ -6,20 +6,21 @@ function App() {
   const {
     text,
     minutes,
-    time,
     words,
+    time,
   } = useReadingTime(myText);
+
   console.log('==============')
   console.log(text)
   console.log(minutes)
-  console.log(time)
   console.log(words)
+  console.log(time)
   console.log('==============')
 
   return (
     <div>
-      {myText}
-      {text}
+      <p>{myText}</p>
+      <p>{text}</p>
     </div>
   );
 };
