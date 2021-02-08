@@ -1,7 +1,7 @@
 {
   "name": "react-reading-time-estimator",
   "version": "1.0.0",
-  "description": "React hooks to generate Barcode.",
+  "description": "Medium's like reading time estimator for React.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {
