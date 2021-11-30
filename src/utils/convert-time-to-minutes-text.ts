@@ -1,6 +1,6 @@
 function convertTimeMinutesText(time: number) {
   if (time < 0.5) {
-    return 'less than a min';
+    return 'less than a min read';
   }
   if (time >= 0.5 && time < 1.5) {
     return '1 min read';
